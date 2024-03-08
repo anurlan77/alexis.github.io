@@ -1,0 +1,101 @@
+body {
+  font-family: Tahoma;
+  background: orange;
+  margin: 0 auto;
+}
+
+h1 {
+  cursor: help;
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #5200a5;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  background: rgba(0, 185, 255, 0.77);
+  width: 450px;
+  height: 500px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+
+.group {
+  margin: 10px;
+  padding: 5px;
+}
+
+label {
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+input {
+  margin-top: 10px;
+  height: 40px;
+  width: 400px;
+  border-radius: 20px/20px;
+  border: none;
+  padding-left: 15px;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+  outline: none;
+}
+
+input:hover {
+  border: 2px solid #6c00ff;
+  transform: translateX(15px);
+  width: 385px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 30px;
+  height: 50px;
+  color: #fff;
+  background: #5200a5;
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+
+button:hover {
+  opacity: 0.8;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+/*team*/
+/* .team {
+  margin: 100px 0 70px;
+} */
+
+.container {
+  box-sizing: border-box;
+  padding: 50px;
+  position: relative;
+  width: 100%;
+  margin-top: 160px;
+  height: auto;
+}
+
+.team__inner {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.team__item {
+  padding: 0 15px;
+  margin-bottom: 30px;
+  background-color: #21a500;
+  border: 1px solid;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 500px;
+  height: 500px;
+}
